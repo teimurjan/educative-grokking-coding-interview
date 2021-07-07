@@ -1,0 +1,16 @@
+{
+  "name": "grokking-coding-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src",
+    "prettier": "prettier --write src/**/*.js"
+  },
+  "author": "teimurjan <teymurgg321@gmail.com> (https://teimurjan.github.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "27.0.6",
+    "prettier": "2.3.2"
+  }
+}

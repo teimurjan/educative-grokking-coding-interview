@@ -1,0 +1,14 @@
+[
+  {
+    "args": ["araaci", 2],
+    "result": 4
+  },
+  {
+    "args": ["araaci", 1],
+    "result": 2
+  },
+  {
+    "args": ["cbbebi", 3],
+    "result": 5
+  }
+]

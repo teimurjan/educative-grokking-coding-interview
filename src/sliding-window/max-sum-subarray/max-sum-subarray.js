@@ -1,3 +1,9 @@
+/**
+ * Returns the maximum subarray sum of size k
+ * @constructor
+ * @param {Array.<Number>} arr - array
+ * @param {Number} k - desired subarray size
+ */
 const maxSumSubarray = (arr, k) => {
   let localMaxSum = 0
   let maxSum = Number.MIN_VALUE

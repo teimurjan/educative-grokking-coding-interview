@@ -17,10 +17,10 @@ sections.forEach((section) => {
     testCases.forEach((testCase) => {
       describe(testCase.fn.name, () => {
         testCase.data.forEach((testCaseData, i) => {
-          it(`works correctly when args=[${testCaseData.args.join(
-            ", "
-          )}]`, () => {
-            expect(testCase.fn(...testCaseData.args)).toBe(testCaseData.result)
+          const outputStr = testCaseData.input.join(", ")
+
+          it(`returns ${testCaseData.output} input=[${outputStr}]`, () => {
+            expect(testCase.fn(...testCaseData.input)).toBe(testCaseData.output)
           })
         })
       })

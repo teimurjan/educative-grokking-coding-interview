@@ -2,7 +2,7 @@
  * Returns the longest substring of distinct characters after replacing k chars
  * @constructor
  * @param {string} str - string
- * @param {number} k - allowed numbers to replace count
+ * @param {number} k - allowed replacements count
  */
 const longestSubstringAfterReplacement = (str, k) => {
   const charsCount = {}

@@ -1,6 +1,6 @@
 # About
 
-This repository contains solution for [Grokkin the Coding Interview: Patterns for Coding Question](https://www.educative.io/courses/grokking-the-coding-interview) from https://educative.io.
+This repository contains solutions for [Grokkin the Coding Interview: Patterns for Coding Question](https://www.educative.io/courses/grokking-the-coding-interview) from https://educative.io.
 
 # Get started
 

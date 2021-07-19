@@ -1,5 +1,5 @@
 /**
- * Returns the sum of triplet that adds up close to target
+ * Returns the contiguous subarrays with the product less than target
  * @constructor
  * @param {Array.<number>} arr - array
  * @param {number} target - target

@@ -1,5 +1,5 @@
 /**
- * Returns the sum of triplet that adds up close to target
+ * Returns the count of triplets that adds up to a number less than target
  * @constructor
  * @param {Array.<number>} arr - array
  * @param {number} target - target

@@ -3,10 +3,10 @@ name: Main
 on: [push]
 
 jobs:
-  build:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v1
-      - name: Run Tests
+      - name: Run Jest
         uses: stefanoeb/jest-action@1.0.3

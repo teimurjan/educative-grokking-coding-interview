@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest src",
+    "test": "jest src/index.test.js",
     "prettier": "prettier --write src/**/*.js"
   },
   "author": "teimurjan <teymurgg321@gmail.com> (https://teimurjan.github.io)",

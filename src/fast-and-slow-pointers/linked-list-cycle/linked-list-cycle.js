@@ -3,7 +3,7 @@ const { LinkedListNode } = require("../../utils")
 /**
  * Returns true if the linked list has a cycle
  * @constructor
- * @param {LinkedListNode} head - string
+ * @param {LinkedListNode} head - linked list head
  */
 const linkedListCycle = (head) => {
   let slow = head

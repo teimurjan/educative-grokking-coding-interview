@@ -20,8 +20,8 @@ sections.forEach((section) => {
           const testCaseName = testCaseData.name
             ? testCaseData.name
             : `returns ${JSON.stringify(
-                testCaseData.input
-              )} when input is ${JSON.stringify(testCaseData.output)}`
+                testCaseData.output
+              )} when input is ${JSON.stringify(testCaseData.input)}`
 
           it(testCaseName, () => {
             expect(testCase.fn(...testCaseData.input)).toStrictEqual(

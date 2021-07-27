@@ -1,7 +1,12 @@
 const path = require("path")
 const fs = require("fs")
 
-const sections = ["sliding-window", "two-pointers", "fast-and-slow-pointers"]
+const sections = [
+  "sliding-window",
+  "two-pointers",
+  "fast-and-slow-pointers",
+  "merge-intervals",
+]
 
 sections.forEach((section) => {
   const sectionPath = path.resolve(__dirname, section)

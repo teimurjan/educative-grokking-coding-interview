@@ -27,7 +27,7 @@ const hasOverlap = (interval1, interval2) => {
  * @param {Array.<Interval>} intervals - array of intervals
  * @param {Interval} newInterval - array of intervals
  */
-const mergeIntervals = (intervals, newInterval) => {
+const insertInterval = (intervals, newInterval) => {
   const result = []
 
   let i = 0
@@ -53,4 +53,4 @@ const mergeIntervals = (intervals, newInterval) => {
   return result
 }
 
-module.exports = mergeIntervals
+module.exports = insertInterval

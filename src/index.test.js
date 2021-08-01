@@ -6,6 +6,7 @@ const sections = [
   "two-pointers",
   "fast-and-slow-pointers",
   "merge-intervals",
+  "cyclic-sort",
 ]
 
 sections.forEach((section) => {

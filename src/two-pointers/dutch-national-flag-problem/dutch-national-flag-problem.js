@@ -1,9 +1,3 @@
-const swap = (arr, i, j) => {
-  const temp = arr[j]
-  arr[j] = arr[i]
-  arr[i] = temp
-}
-
 /**
  * Sorts the array in-place
  * @constructor
@@ -17,11 +11,11 @@ const dutchNationalFlagProblem = (arr) => {
 
   while (i <= right) {
     if (arr[i] === 0) {
-      swap(arr, i, left)
+      ;[arr[i], arr[left]] = [arr[left], arr[i]]
       left++
       i++
     } else if (arr[i] === 2) {
-      swap(arr, i, right)
+      ;[arr[i], arr[right]] = [arr[right], arr[i]]
       right--
     } else {
       i++

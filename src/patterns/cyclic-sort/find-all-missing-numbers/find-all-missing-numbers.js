@@ -3,7 +3,7 @@
  * @constructor
  * @param {Array.<number>} arr - array (1 to n)
  */
-const findTheMissingNumber = (arr) => {
+const findAllMissingNumbers = (arr) => {
   let i = 0
 
   while (i < arr.length) {
@@ -21,4 +21,4 @@ const findTheMissingNumber = (arr) => {
   )
 }
 
-module.exports = findTheMissingNumber
+module.exports = findAllMissingNumbers

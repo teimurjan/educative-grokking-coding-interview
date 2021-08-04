@@ -6,8 +6,6 @@
 const findTheCorruptPaor = (arr) => {
   let i = 0
 
-  let duplicatedNumber
-
   while (i < arr.length) {
     const correctIndex = arr[i] - 1
     if (i !== correctIndex && arr[i] !== arr[correctIndex]) {

@@ -1,7 +1,7 @@
 const { LinkedListNode } = require("../../../utils")
 
 /**
- * Reverses a linked list (recursively)
+ * Reverses a linked list
  * @constructor
  * @param {LinkedListNode} head - linked list head
  */
@@ -10,7 +10,7 @@ const reverseLinkedList = (head) => {
   let prev = null
 
   while (current) {
-    next = current.next
+    const next = current.next
     current.next = prev
     prev = current
     current = next

@@ -1,11 +1,17 @@
 const LinkedListNode = require("./linked-list-node")
 const Interval = require("./interval")
 const MinHeap = require("./min-heap")
+const Queue = require("./queue")
+const Stack = require("./stack")
+const BinaryTreeNode = require("./binary-tree-node")
 const doIntervalsOverlap = require("./do-intervals-overlap")
 
 module.exports = {
   LinkedListNode,
   Interval,
-  doIntervalsOverlap,
   MinHeap,
+  Queue,
+  Stack,
+  BinaryTreeNode,
+  doIntervalsOverlap,
 }

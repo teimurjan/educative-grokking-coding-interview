@@ -4,15 +4,14 @@ const path = require("path")
 
 const getPatterns = () => {
   const dirPath = path.resolve(__dirname)
-  const patternsRelativePath = "../src/patterns"
-  const patternsPath = path.join(dirPath, patternsRelativePath)
+  const patternsPath = path.join(dirPath, "../src/patterns")
 
   return fs.readdirSync(patternsPath).map((patternName) => {
     const problemsPath = path.join(patternsPath, patternName)
     const problems = fs.readdirSync(problemsPath).map((problemName) => ({
       title: toPascalCase(problemName),
       filePath: path.join(
-        patternsRelativePath,
+        '/src/patterns',
         patternName,
         problemName,
         `${problemName}.js`

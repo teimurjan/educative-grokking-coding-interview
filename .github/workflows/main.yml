@@ -7,17 +7,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run Jest
       - uses: actions/checkout@v2
-      - uses: stefanoeb/jest-action@1.0.3
+      - name: Run Jest
+        uses: stefanoeb/jest-action@1.0.3
 
   docs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate README
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
+
+      - name: Generate README
         run: ./bin/generate-readme.js
 
       - name: Commit generated README

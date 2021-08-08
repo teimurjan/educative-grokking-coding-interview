@@ -60,7 +60,7 @@ npm install
 npm test
 \`\`\`
 
-# Table of Contents
+# Problems
 
 ${getPatterns().map(patternToMd).join("\n")}
   `

@@ -7,6 +7,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Run Jest
-        uses: stefanoeb/jest-action@1.0.3
+      - uses: stefanoeb/jest-action@1.0.3
+
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+
+      - name: Generate README
+        run: ./bin/generate-readme.js
+
+      - name: Commit generated README
+        run: |
+          git commit README.md -m 'Update READNE' || echo "No changes to commit"
+          git push origin || echo "No commits to push"

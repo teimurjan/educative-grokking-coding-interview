@@ -18,7 +18,7 @@ npm install
 npm test
 ```
 
-# Patterns
+# Table of Contents
 
 ## Cyclic Sort
 

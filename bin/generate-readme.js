@@ -50,7 +50,7 @@ This repository contains solutions for [Grokking the Coding Interview: Patterns 
 
 ## Install dependencies
 
-The problems are solved without any external dependency (required data structures and helper functions lay in [the utils folder](/src/utils/index.js)). It's using only \`jest\` and \`prettier\` to have smooth development.
+The problems are solved without any external dependency (required data structures and helper functions lay in [the utils folder](/src/utils/index.js)). The project uses \`jest\` and \`prettier\` only to have smooth development.
 
 \`\`\`sh
 npm install

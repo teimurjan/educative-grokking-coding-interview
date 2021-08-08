@@ -68,6 +68,7 @@ npm test
 
 * [Binary Tree Level Order Traversal](/src/patterns/tree-breadth-first-search/binary-tree-level-order-traversal/binary-tree-level-order-traversal.js)
 * [Level Averages In Binary Tree](/src/patterns/tree-breadth-first-search/level-averages-in-binary-tree/level-averages-in-binary-tree.js)
+* [Level Order Successor](/src/patterns/tree-breadth-first-search/level-order-successor/level-order-successor.js)
 * [Minimum Depth Of Binary Tree](/src/patterns/tree-breadth-first-search/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.js)
 * [Reverse Level Order Traversal](/src/patterns/tree-breadth-first-search/reverse-level-order-traversal/reverse-level-order-traversal.js)
 * [Zigzag Traversal](/src/patterns/tree-breadth-first-search/zigzag-traversal/zigzag-traversal.js)

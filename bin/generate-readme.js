@@ -11,7 +11,7 @@ const getPatterns = () => {
     const problems = fs.readdirSync(problemsPath).map((problemName) => ({
       title: toPascalCase(problemName),
       filePath: path.join(
-        '/src/patterns',
+        "/src/patterns",
         patternName,
         problemName,
         `${problemName}.js`
@@ -49,6 +49,8 @@ This repository contains solutions for [Grokking the Coding Interview: Patterns 
 # Get started
 
 ## Install dependencies
+
+The problems are solved without any external dependency (required data structures and helper functions lay in [the utils folder](/src/utils/index.js)). It's using only \`jest\` and \`prettier\` to have smooth development.
 
 \`\`\`sh
 npm install

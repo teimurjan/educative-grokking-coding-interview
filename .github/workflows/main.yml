@@ -16,12 +16,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
 
       - name: Generate README
+        uses: actions/setup-node@v2
         run: ./bin/generate-readme.js
 
       - name: Commit generated README
-        run: |
-          git commit README.md -m 'Update READNE' || echo "No changes to commit"
-          git push origin || echo "No commits to push"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          commit_message: Update README
+          branch: main
+          commit_user_name: teimurjan-bot 🤖
+          commit_user_email: actions@github.com
+          commit_author: teimurjan-bot 🤖 <actions@github.com>

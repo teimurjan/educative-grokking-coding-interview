@@ -4,6 +4,7 @@ const MinHeap = require("./min-heap")
 const Queue = require("./queue")
 const Stack = require("./stack")
 const BinaryTreeNode = require("./binary-tree-node")
+const BinaryTreeSiblingNode = require("./binary-tree-sibling-node")
 const doIntervalsOverlap = require("./do-intervals-overlap")
 
 module.exports = {
@@ -13,5 +14,6 @@ module.exports = {
   Queue,
   Stack,
   BinaryTreeNode,
+  BinaryTreeSiblingNode,
   doIntervalsOverlap,
 }

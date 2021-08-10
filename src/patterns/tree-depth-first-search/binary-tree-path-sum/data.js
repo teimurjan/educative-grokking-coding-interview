@@ -18,22 +18,18 @@ head2.right.right = new BinaryTreeNode(5)
 module.exports = [
   {
     input: [head1, 10],
-    name: "returns true when input is 1|2-3|4-5-6-7",
     output: true,
   },
   {
     input: [head1, 5],
-    name: "returns false when input is 1|2-3|4-5-6-7",
     output: false,
   },
   {
     input: [head2, 23],
-    name: "returns true when input is 12|7-1|9-10-5",
     output: true,
   },
   {
     input: [head2, 16],
-    name: "returns false when input is 12|7-1|9-10-5",
     output: false,
   },
 ]

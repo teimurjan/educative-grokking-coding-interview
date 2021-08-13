@@ -69,12 +69,19 @@ npm test
 ## Tree Breadth First Search
 
 * [Binary Tree Level Order Traversal](/src/patterns/tree-breadth-first-search/binary-tree-level-order-traversal/binary-tree-level-order-traversal.js)
+* [Connect All Level Order Siblings](/src/patterns/tree-breadth-first-search/connect-all-level-order-siblings/connect-all-level-order-siblings.js)
 * [Connect Level Order Siblings](/src/patterns/tree-breadth-first-search/connect-level-order-siblings/connect-level-order-siblings.js)
 * [Level Averages In Binary Tree](/src/patterns/tree-breadth-first-search/level-averages-in-binary-tree/level-averages-in-binary-tree.js)
 * [Level Order Successor](/src/patterns/tree-breadth-first-search/level-order-successor/level-order-successor.js)
 * [Minimum Depth Of Binary Tree](/src/patterns/tree-breadth-first-search/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.js)
 * [Reverse Level Order Traversal](/src/patterns/tree-breadth-first-search/reverse-level-order-traversal/reverse-level-order-traversal.js)
 * [Zigzag Traversal](/src/patterns/tree-breadth-first-search/zigzag-traversal/zigzag-traversal.js)
+
+## Tree Depth First Search
+
+* [All Paths For A Sum](/src/patterns/tree-depth-first-search/all-paths-for-a-sum/all-paths-for-a-sum.js)
+* [Binary Tree Path Sum](/src/patterns/tree-depth-first-search/binary-tree-path-sum/binary-tree-path-sum.js)
+* [Sum Of Path Numbers](/src/patterns/tree-depth-first-search/sum-of-path-numbers/sum-of-path-numbers.js)
 
 ## Two Pointers
 

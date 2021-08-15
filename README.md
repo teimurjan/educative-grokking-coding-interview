@@ -81,6 +81,7 @@ npm test
 
 * [All Paths For A Sum](/src/patterns/tree-depth-first-search/all-paths-for-a-sum/all-paths-for-a-sum.js)
 * [Binary Tree Path Sum](/src/patterns/tree-depth-first-search/binary-tree-path-sum/binary-tree-path-sum.js)
+* [Path With Given Sequence](/src/patterns/tree-depth-first-search/path-with-given-sequence/path-with-given-sequence.js)
 * [Sum Of Path Numbers](/src/patterns/tree-depth-first-search/sum-of-path-numbers/sum-of-path-numbers.js)
 
 ## Two Pointers

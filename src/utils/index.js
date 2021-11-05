@@ -6,6 +6,7 @@ const Queue = require("./queue")
 const Stack = require("./stack")
 const BinaryTreeNode = require("./binary-tree-node")
 const BinaryTreeSiblingNode = require("./binary-tree-sibling-node")
+const MedianStream = require("./median-stream")
 const doIntervalsOverlap = require("./do-intervals-overlap")
 
 module.exports = {
@@ -17,5 +18,6 @@ module.exports = {
   Stack,
   BinaryTreeNode,
   BinaryTreeSiblingNode,
+  MedianStream,
   doIntervalsOverlap,
 }

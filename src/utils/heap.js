@@ -16,6 +16,18 @@ class Heap {
     return this.heap[1]
   }
 
+  remove(node) {
+    const nodeIndex = this.heap.findIndex(heapNode => heapNode === node)
+    
+    if (nodeIndex < 0) {
+      return false
+    }
+
+    this.heap[nodeIndex] = this.heap[this.heap.length - 1]
+
+    this.pop()
+  }
+
   push(node) {
     this.heap.push(node)
 

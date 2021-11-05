@@ -84,6 +84,11 @@ npm test
 * [Path With Given Sequence](/src/patterns/tree-depth-first-search/path-with-given-sequence/path-with-given-sequence.js)
 * [Sum Of Path Numbers](/src/patterns/tree-depth-first-search/sum-of-path-numbers/sum-of-path-numbers.js)
 
+## Two Heaps
+
+* [Find The Median Of Number Stream](/src/patterns/two-heaps/find-the-median-of-number-stream/find-the-median-of-number-stream.js)
+* [Sliding Window Median](/src/patterns/two-heaps/sliding-window-median/sliding-window-median.js)
+
 ## Two Pointers
 
 * [Dutch National Flag Problem](/src/patterns/two-pointers/dutch-national-flag-problem/dutch-national-flag-problem.js)

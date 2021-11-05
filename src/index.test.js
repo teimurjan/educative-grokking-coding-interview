@@ -3,6 +3,13 @@ const fs = require("fs")
 
 const PATTERNS_FOLDER_PATH = "patterns"
 
+const isClass = (func) => {
+  return (
+    typeof func === "function" &&
+    /^class\s/.test(Function.prototype.toString.call(func))
+  )
+}
+
 fs.readdirSync(path.resolve(__dirname, PATTERNS_FOLDER_PATH)).forEach(
   (pattern) => {
     const patternPath = path.resolve(__dirname, PATTERNS_FOLDER_PATH, pattern)
@@ -25,9 +32,18 @@ fs.readdirSync(path.resolve(__dirname, PATTERNS_FOLDER_PATH)).forEach(
                 )} when input is ${JSON.stringify(testCaseData.input)}`
 
             it(testCaseName, () => {
-              expect(testCase.fn(...testCaseData.input)).toStrictEqual(
-                testCaseData.output
-              )
+              if (isClass(testCase.fn)) {
+                const instance = new testCase.fn()
+
+                const actualOutput = testCaseData.input.reduce(
+                  (output, input) => [...output, input(instance)],
+                  []
+                )
+                expect(actualOutput).toStrictEqual(testCaseData.output)
+              } else {
+                const actualOutput = testCase.fn(...testCaseData.input)
+                expect(actualOutput).toStrictEqual(testCaseData.output)
+              }
             })
           })
         })
